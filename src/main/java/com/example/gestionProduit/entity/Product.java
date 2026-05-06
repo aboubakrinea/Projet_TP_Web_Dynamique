@@ -1,7 +1,11 @@
 package com.example.gestionProduit.entity;
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class Product {
     @Id
