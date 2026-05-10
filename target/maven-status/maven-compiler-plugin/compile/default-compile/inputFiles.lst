@@ -1,0 +1,13 @@
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\config\SecurityConfig.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\controller\ArticleController.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\controller\CommentController.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\controller\ProductController.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\entity\Article.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\entity\Comment.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\entity\Product.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\GestionProduitApplication.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\repository\ArticleRepository.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\repository\CommentRepository.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\repository\ProductRepository.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\service\ArticleService.java
+D:\VirtualBox VMs\gestionProduit\src\main\java\com\example\gestionProduit\service\ProductService.java

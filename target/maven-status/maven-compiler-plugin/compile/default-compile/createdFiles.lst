@@ -1,0 +1,13 @@
+com\example\gestionProduit\controller\ProductController.class
+com\example\gestionProduit\entity\Comment.class
+com\example\gestionProduit\entity\Product.class
+com\example\gestionProduit\entity\Article.class
+com\example\gestionProduit\repository\ArticleRepository.class
+com\example\gestionProduit\service\ProductService.class
+com\example\gestionProduit\config\SecurityConfig.class
+com\example\gestionProduit\service\ArticleService.class
+com\example\gestionProduit\repository\CommentRepository.class
+com\example\gestionProduit\repository\ProductRepository.class
+com\example\gestionProduit\GestionProduitApplication.class
+com\example\gestionProduit\controller\ArticleController.class
+com\example\gestionProduit\controller\CommentController.class
