@@ -15,6 +15,11 @@ public class ProductController {
     public List<Product> getAllProducts() {
         return productService.getAllProducts();
     }
+    @GetMapping("/")
+    public String welcome() {
+        return "Welcome to the Product Management API!";
+    }
+
     @GetMapping("/{id}")
     public Product getProductById(@PathVariable Long id) {
         return productService.getProductById(id);
