@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestion des Produits : Application </title>
+    </head>
+    <body>
+        <h1>Bienvenue dans l'application de gestion des produits</h1>
+        <p>Utilisez les liens ci-dessous pour naviguer :</p>
+        <ul>
+            <li><a th:href="@{api/products}">Voir tous les produits</a></li>
+            <li><a th:href="@{/products/new}">Ajouter un nouveau produit</a></li>
+        </ul>
