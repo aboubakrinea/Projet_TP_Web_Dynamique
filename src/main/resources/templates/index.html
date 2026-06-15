@@ -3,11 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Gestion des Produits : Application </title>
+        <link rel="stylesheet" th:href="@{/css/style.css}">
     </head>
     <body>
         <h1>Bienvenue dans l'application de gestion des produits</h1>
         <p>Utilisez les liens ci-dessous pour naviguer :</p>
+        <h1>Produit :</h1>
         <ul>
-            <li><a th:href="@{api/products}">Voir tous les produits</a></li>
-            <li><a th:href="@{/products/new}">Ajouter un nouveau produit</a></li>
+            <li><a th:href="@{/products}">Voir tous les produits</a></li>
+            <li><a th:href="@{/products/new}">Ajouter un produit</a></li>
         </ul>
+        <h1>Article :</h1>
+        <ul>
+            <li><a th:href="@{/articles}">Voir tous les articles</a></li>
+            <li><a th:href="@{/articles/new}">Ajouter un article</a></li>
+        </ul>
+    </body> 
+</html>
+

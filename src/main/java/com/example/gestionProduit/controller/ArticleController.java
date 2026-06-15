@@ -1,28 +1,34 @@
 package com.example.gestionProduit.controller;
 import com.example.gestionProduit.entity.Article;
 import com.example.gestionProduit.service.ArticleService;
-
-import java.util.List;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 
-@RestController
-@RequestMapping("/api/articles")
+@Controller
 public class ArticleController {
     private final ArticleService articleService;
 
     public ArticleController(ArticleService articleService) {
         this.articleService = articleService;
     }
-
-    @GetMapping
-    public List<Article> getAllArticles() {
-        return articleService.getAllArticles();
+    @GetMapping("/articles")
+    public String getAllArticles(Model model) {
+        model.addAttribute("articles", articleService.getAllArticles());
+        return "articles";
     }
 
-    @PostMapping
-    public Article createArticle(@RequestBody Article article) {
-        return articleService.saveArticle(article);
+    @GetMapping("/articles/new")
+    public String showCreateArticleForm(Model model) {
+        model.addAttribute("article", new Article());
+        return "add-article";
+    }
+
+    @PostMapping("/articles/save")
+    public String saveArticle(Article article) {
+        articleService.saveArticle(article);
+        return "redirect:/articles";
     }
 
 }
